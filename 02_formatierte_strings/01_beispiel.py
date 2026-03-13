@@ -1,8 +1,7 @@
-import random as rd
-
-print("Prüfungstag")
-note = rd.randrange(1, 7)
-faecher = ["Informatik", "Mathematik", "Deutsch"]
-fach = rd.choice(faecher)
-print(f"Notenwürfel für das Fach: {fach}")
-print(f"Ihre gewürfelte Note lautet: {note}")
+anzahl = 5
+print(f"Meine Hand hat {anzahl} Finger.")
+anzahl = 4
+print(f"Die Hand von Bart Simpson hat {anzahl} Finger.")
+schule = "Kantonsschule"
+ort = "Wettingen"
+print(f"Ich besuche die {schule} in {ort}.")
